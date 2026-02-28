@@ -31,6 +31,21 @@ This agent converts unstructured discussions into structured internal documentat
 
 ---
 
+### 🏠 Home Interface Preview
+
+![Home Screen 1](Assets/home1_png.png)
+
+![Home Screen 2](Assets/home2_png.png)
+
+### 📊 Output Interface Preview
+
+![Result 1](Assets/result1_png.png)
+
+![Result 2](Assets/result2_png.png)
+
+![Result 3](Assets/result3_png.png)
+
+
 ## 🏗 Architecture
 
 ```
