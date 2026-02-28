@@ -45,18 +45,19 @@ This agent converts unstructured discussions into structured internal documentat
 
 ![Result 3](Assets/result3_png.png)
 
+## 🏗️ Architecture Overview
 
-## 🏗 Architecture
+The system is designed as a modular internal AI workflow:
 
-```
-Streamlit UI
-    ↓
-Agent Logic (Rule-based NLP)
-    ↓
-Structured Output Sections
-```
+- `app.py` → Streamlit interface layer  
+- `agent_logic.py` → Core intelligence processing  
+- `Assets/` → UI preview assets  
+- `requirements.txt` → Reproducible environment  
 
-Future versions will integrate LLM-based reasoning using Claude API for deeper semantic analysis.
+The architecture separates UI from logic, enabling easy scaling into:
+- API deployment
+- Slack / internal tool integration
+- Enterprise workflow automation
 
 ---
 
